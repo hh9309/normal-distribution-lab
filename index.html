@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Normal Distribution Visualizer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      }
+    </style>
+    <!-- 自定义样式（如果需要） -->
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="root"></div>
+    <!-- 修改为相对路径，确保在 GitHub Pages 上正确加载 -->
+    <script type="module" src="./src/index.tsx"></script>
+  </body>
+</html>

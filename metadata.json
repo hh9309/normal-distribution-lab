@@ -1,0 +1,5 @@
+{
+  "name": "正态分布AI可视化",
+  "description": "An interactive educational tool to visualize the Normal (Gaussian) Distribution. Adjust Mean and Standard Deviation to see real-time changes in the probability density function curve and formula, with AI-powered explanations.",
+  "requestFramePermissions": []
+}
